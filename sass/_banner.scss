@@ -1,0 +1,28 @@
+.container-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .div-text-banner {
+        width: 440px;
+        .title-banner {
+            text-transform: uppercase;
+            font-size: 38px;
+            letter-spacing: 1px;
+            line-height: 48px;
+            span {
+                color: $yellow;
+            }
+        }
+        p {
+            margin: 32px 0px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            width: 280px;
+        }
+    }
+    .img-banner {
+        display: block;
+        width: 620px;
+    }
+}

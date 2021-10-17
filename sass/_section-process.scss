@@ -1,0 +1,39 @@
+.section-process {
+    background: $yellow;
+    padding: 80px 0px;
+}
+
+.container-process {
+    text-align: center;
+    .description-process {
+        display: block;
+    }
+    .title-process {
+        color: $white;
+    }
+}
+
+.cards-process {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    .card {
+        background: $white;
+        width: 260px;
+        padding: 24px;
+        box-shadow: 2px 2px 6px rgba(82, 82, 82, 0.4);
+        .number-card {
+            font-weight: 600;
+        }
+        .title-card {
+            text-transform: uppercase;
+            font-weight: 600;
+            margin: 16px 0px;
+        }
+        .text-card {
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 400;
+        }
+    }
+}

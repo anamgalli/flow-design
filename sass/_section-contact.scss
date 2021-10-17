@@ -1,0 +1,89 @@
+#contact {
+    width: 100%;
+    padding: 80px 0px;
+    background: $yellow;
+    .container-contact {
+        display: flex;
+        justify-content: space-around; 
+    }
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .description-contact {
+        display: inline-block;
+    }
+    .title-contact {
+        color: $white;
+    }
+    .form {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 340px;
+        .form-input {
+            display: block;
+            width: 100%;
+            font-size: 13px;
+            letter-spacing: 1px;
+            padding: 6px;
+            outline: none;
+            border: none;
+            margin-bottom: 10px;
+        }
+        .form-textarea {
+            display: block;
+            max-width: 100%;
+            min-width: 100%;
+            max-height: 160px;
+            min-height: 160px;
+            outline: none;
+            border: none;
+            padding: 6px;
+            font-size: 13px;
+            letter-spacing: 1px;
+            font-family: $principalFont;
+            font-weight: 500;
+        }
+        .form-button {
+            width: 100px;
+            height: 30px;
+            margin-top: 20px;
+            border: none;
+            outline: none;
+            background: $white;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+    }
+}
+
+.contact-right {
+    .map {
+        display: block;
+        margin-bottom: 40px;
+    }
+    .text-contact {
+        .list-contact {
+            .item-contact {
+                margin-bottom: 20px;
+                font-weight: 500;
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+                .svg-inline--fa {
+                    display: inline-block;
+                    margin-right: 10px;
+                    font-size: 20px;
+                    width: 20px;
+                }
+            }
+        }
+    }
+}

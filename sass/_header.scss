@@ -1,0 +1,45 @@
+header {
+    padding: 20px 0px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logotipo {
+        display: flex;
+        .logotipo-img {
+            display: inline-block;
+            height: 34px;
+        }
+    }
+    .menu-icon {
+        display: none;
+        .fa-bars {
+            display: block;
+            width: 30px;
+            height: 30px;
+        }
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 560px;
+        .link-nav {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 12px;
+            color: $black;
+        }
+        .link-nav-contact {
+            background: $yellow;
+            border: 2px solid $yellow;
+            padding: 6px 28px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            &:hover {
+                background-color: $white;
+                color: $yellow;
+            }
+        }
+    }
+}
